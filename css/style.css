@@ -40,6 +40,7 @@ body{
     align-items: center;
     min-height: 100vh;
     min-width: 620px;
+    background: #000000;
     background: var(--background);
     background-size: 100vw;
     transition: background 0.2s linear;
