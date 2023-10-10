@@ -24,7 +24,8 @@
     --display-1: #0119249f;
     --display-2: #00eeff;
     --row-1: #00eeff;
-    --background: url("../images/black4.jpg")
+    --background: linear-gradient 
+                url("../images/black4.jpg")
 }
 
 
