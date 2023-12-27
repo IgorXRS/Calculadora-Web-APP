@@ -217,3 +217,14 @@ body{
     box-shadow: inset 5px 5px 8px #e60073, 
                 inset -5px -5px 8px #ff3399;
 }
+
+@media (max-height: 520px) {
+    .titulo {
+        display: none;
+    }
+}
+@media (max-height: 450px) {
+    .rodape {
+        display: none;
+    }
+}
