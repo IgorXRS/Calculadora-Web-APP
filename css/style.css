@@ -14,7 +14,7 @@
     --display-1: #ecf0f3;
     --display-2: #000000;
     --row-1: #fff;
-    --background: url("../images/1586344.webp")
+    --background: url("../images/1586344.webp");
 }
 
 .dark-mode:root {
@@ -24,7 +24,8 @@
     --display-1: #0119249f;
     --display-2: #00eeff;
     --row-1: #00eeff;
-    --background: #01151ff5;
+    --background: black;
+    --background: url("../images/black4.jpg");
 }
 
 
@@ -40,7 +41,6 @@ body{
     align-items: center;
     min-height: 100vh;
     min-width: 620px;
-    background: #000000;
     background: var(--background);
     background-size: 100vw;
     transition: background 0.2s linear;
@@ -218,13 +218,13 @@ body{
                 inset -5px -5px 8px #ff3399;
 }
 
-@media screen and (max-height: 620px){
-    .titulo{
+@media (max-height: 520px) {
+    .titulo {
         display: none;
     }
 }
-@media screen and (max-height: 400px){
-    .rodape{
+@media (max-height: 450px) {
+    .rodape {
         display: none;
     }
 }
