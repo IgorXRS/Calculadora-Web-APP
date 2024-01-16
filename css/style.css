@@ -218,7 +218,7 @@ body{
                 inset -5px -5px 8px #ff3399;
 }
 
-@media (max-height: 520px) {
+@media (max-height: 580px) {
     .titulo {
         display: none;
     }
