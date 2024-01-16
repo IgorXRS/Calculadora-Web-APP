@@ -24,8 +24,7 @@
     --display-1: #0119249f;
     --display-2: #00eeff;
     --row-1: #00eeff;
-    --background: linear-gradient 
-                url("../images/black4.jpg")
+    --background: #01151ff5;
 }
 
 
@@ -217,4 +216,15 @@ body{
 #ce:hover {
     box-shadow: inset 5px 5px 8px #e60073, 
                 inset -5px -5px 8px #ff3399;
+}
+
+@media screen and (max-height: 620px){
+    .titulo{
+        display: none;
+    }
+}
+@media screen and (max-height: 400px){
+    .rodape{
+        display: none;
+    }
 }
